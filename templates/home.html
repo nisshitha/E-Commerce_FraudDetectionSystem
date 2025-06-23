@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection - Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+        body {
+            overflow-x: hidden;
+            background: black;
+            color: white;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(10px);
+            padding: 15px 30px;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .nav-container {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .nav-links a:hover {
+            color: cyan;
+            transform: scale(1.1);
+        }
+
+        .menu-toggle {
+            display: none;
+            font-size: 2rem;
+            color: white;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 0;
+                background: rgba(0, 0, 0, 0.9);
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+            }
+
+            .nav-links a {
+                display: block;
+                padding: 15px;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .hero video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+
+        .typing-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00ffff; /* Neon blue */
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00aaff;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    border-right: 3px solid #00ffff; /* Cursor effect */
+    width: 0; /* Start hidden */
+    animation: typing 3s steps(40, end) forwards, blink 0.6s infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Cursor blinking effect */
+@keyframes blink {
+    30% {
+        border-color: transparent;
+    }
+}
+
+
+        /* About Section */
+/* About Section */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    text-align: left;
+    height: 100vh;
+    gap: 40px;
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle, rgba(0, 0, 50, 0.8) 0%, rgba(0, 0, 0, 1) 100%);
+    animation: glowingBg 5s infinite alternate ease-in-out;
+}
+
+/* Glowing Background Animation */
+@keyframes glowingBg {
+    0% {
+        background: radial-gradient(circle, rgba(0, 0, 50, 0.8) 0%, rgba(0, 0, 0, 1) 100%);
+        box-shadow: 0 0 0px #00ffff, 0 0 0px #00ffff;
+    }
+    100% {
+        background: radial-gradient(circle, rgba(0, 0, 100, 0.8) 0%, rgba(0, 0, 0, 1) 100%);
+        box-shadow: 0 0 0px #00ffff, 0 0 0px #00ffff;
+    }
+}
+
+/* About Content */
+.about-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 50%;
+    box-shadow: 0px 0px 0px rgba(0, 255, 255, 0.6);
+}
+
+/* About Heading (Neon Effect) */
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #00ffff; /* Neon Cyan */
+    text-shadow: 0 0 0px #00ffff, 0 0 0px #00ffff;
+}
+
+/* About Paragraph */
+.about-content p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Glow Effect for Image */
+.about-image img {
+    width: 450px; /* Reduced size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px rgba(0, 255, 255, 0.6);
+}
+
+/* Paragraph Fade-In Animation */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-content {
+        max-width: 90%;
+    }
+    .about-image img {
+        width: 250px;
+    }
+}
+
+
+        /* Features Section */
+.features-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+    animation: glowingBg 6s infinite alternate; /* Apply glowing background animation */
+}
+
+/* Background Animation */
+.features-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 0, 50, 0.8) 0%, rgba(0, 0, 0, 1) 100%);
+    animation: glowingBg 6s infinite alternate;
+}
+
+/* Features Title */
+.features-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: cyan;
+    z-index: 2;
+}
+
+/* Features Container */
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    z-index: 2;
+}
+
+/* Feature Box */
+.feature-box {
+    width: 300px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid cyan;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 0 10px cyan;
+    transition: transform 0.3s, box-shadow 0.3s;
+    z-index: 2;
+}
+
+/* Hover Effect */
+.feature-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px cyan;
+}
+
+/* Feature Box Heading */
+.feature-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: cyan;
+}
+
+/* Feature Box Text */
+.feature-box p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Glowing Background Animation */
+@keyframes glowingBg {
+    0% {
+        background: radial-gradient(circle, rgba(0, 0, 50, 0.8) 0%, rgba(0, 0, 0, 1) 100%);
+        box-shadow: 0 0 0px #00ffff, 0 0 0px #00ffff;
+    }
+    100% {
+        background: radial-gradient(circle, rgba(0, 0, 100, 0.8) 0%, rgba(0, 0, 0, 1) 100%);
+        box-shadow: 0 0 0px #00ffff, 0 0 0px #00ffff;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .feature-box {
+        width: 250px;
+        height: auto;
+        padding: 15px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="form.html">Form</a>
+                <a href="{{ url_for('dashboard') }}">Dashboard</a>
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        </div>
+    </div>
+
+    <div class="hero">
+        <video autoplay loop muted>
+            <source src="static/homevid.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        <h1><span class="typing-text">AI-BASED FRAUD DETECTION SYSTEM <br> ON E-COMMERCE TRANSACTIONS</span></h1>
+    </div>
+
+    <!-- Particles Background -->
+    <div id="about" class="about-section">
+        <!-- Content Section -->
+        <div class="about-content">
+            <h2>ABOUT</h2>
+            <p>Our AI-based fraud detection system for e-commerce transactions analyzes transaction patterns to identify potential fraud. Users can input transaction details and submit them for real-time fraud detection. The system provides insights through an interactive dashboard, helping businesses and individuals to understand fraud trends and detect anomalies.</p>
+        </div>
+    
+        <!-- Image Section (Optional) -->
+        <div class="about-image">
+            <img src="static/image.jpg" alt="AI Fraud Detection">
+        </div>
+    </div>
+    
+
+
+    <div id="features" class="features-section">
+        <h2 class="features-title">FEATURES</h2>
+        <div class="features-container">
+            <div class="feature-box">
+                <h3>Real-Time Monitoring</h3>
+                <p> Instantly analyze transaction data to identify suspicious activities using intelligent algorithms.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Explainable AI (XAI) Integration</h3>
+                <p>Provides clear, interpretable insights into fraud detection decisions, ensuring transparency and trust.</p>
+            </div>
+            <div class="feature-box">
+                <h3> Interactive Dashboard </h3>
+                <p>Offers a user-friendly dashboard with real-time fraud reports, and transaction insights for better decision-making and analysis.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

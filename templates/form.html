@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transaction Entry</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    body {
+      background: black;
+      color: white;
+      min-height: 100vh;
+      overflow-y: auto;
+    }
+
+    .bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .main-heading {
+      text-align: center;
+      font-size: 1.5rem;
+      font-style: italic;
+      color: cyan;
+      text-shadow: 0 0 10px cyan, 0 0 20px magenta;
+      font-weight: bold;
+      padding: 20px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 30px;
+      background: rgba(0, 0, 0, 0.45); /* lighter container */
+      backdrop-filter: blur(14px);
+      border-radius: 20px;
+      box-shadow: 0 0 20px cyan;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .container h2 {
+      text-align: center;
+      font-size: 2rem;
+      background: linear-gradient(90deg, cyan, magenta);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+    }
+
+    .input-box label {
+      display: block;
+      margin-bottom: 8px;
+      color: cyan;
+      font-weight: bold;
+      text-shadow: 0 0 10px cyan;
+    }
+
+    .input-box input,
+    .input-box select {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+      text-align: center;
+      box-shadow: 0 0 12px rgba(0, 255, 255, 0.5);
+      backdrop-filter: blur(4px);
+      transition: all 0.3s ease;
+    }
+
+    .input-box input:focus,
+    .input-box select:focus {
+      outline: none;
+      box-shadow: 0 0 15px magenta;
+    }
+
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      color: white;
+    }
+
+    select:invalid {
+      color: gray;
+    }
+
+    select option[disabled][hidden] {
+      color: gray;
+    }
+
+    select option {
+      background: rgba(0, 0, 0, 0.95);
+      color: cyan;
+      text-shadow: 0 0 6px cyan;
+    }
+
+    .submit-btn {
+      grid-column: span 2;
+      margin-top: 20px;
+      padding: 14px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(90deg, cyan, magenta);
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 0 12px cyan;
+      transition: transform 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 18px magenta;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<video class="bg-video" autoplay loop muted>
+  <source src="static/form.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p class="main-heading">Fill the transaction details to detect fraud</p>
+
+<div class="container">
+  <h2>Transaction Details</h2>
+  <form action="/predict" method="POST">
+    <div class="input-box">
+      <label>Transaction Amount</label>
+      <input type="number" name="t_amt" placeholder="Enter amount" step="any" required>
+    </div>
+
+    <div class="input-box">
+      <label>Customer Age</label>
+      <input type="number" name="customer_age" placeholder="Enter age" required>
+    </div>
+
+    <div class="input-box">
+      <label>Account Age (in Days)</label>
+      <input type="number" name="account_age" placeholder="Enter account age" required>
+    </div>
+
+    <div class="input-box">
+      <label>Transaction Hour</label>
+      <input type="number" name="t_hour" placeholder="0 - 23" min="0" max="23" required>
+    </div>
+
+    <div class="input-box">
+      <label>Source</label>
+      <select name="source" required>
+        <option value="" disabled selected hidden>Select Source</option>
+        <option value="SEO">SEO</option>
+        <option value="Ads">Ads</option>
+        <option value="Direct">Direct</option>
+      
+      </select>
+    </div>
+
+    <div class="input-box">
+      <label>Browser</label>
+      <select name="browser" required>
+        <option value="" disabled selected hidden>Select Browser</option>
+        <option value="Chrome">Chrome</option>
+        <option value="Firefox">Firefox</option>
+        <option value="Safari">Safari</option>
+        <option value="Opera">Opera</option>
+        <option value="IE">IE</option>
+      </select>
+    </div>
+
+    <div class="input-box">
+      <label>Sex</label>
+      <select name="sex" required>
+        <option value="" disabled selected hidden>Select Gender</option>
+        <option value="F">F</option>
+        <option value="M">M</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <div class="input-box">
+      <label>Payment Method</label>
+      <select name="payment_method" required>
+        <option value="" disabled selected hidden>Select Method</option>
+        <option value="credit card">credit card</option>
+        <option value="debit card">debit card</option>
+        <option value="PayPal">PayPal</option>
+        <option value="bank transfer">bank transfer</option>
+      </select>
+    </div>
+
+    <div class="input-box">
+      <label>Product Category</label>
+      <select name="product_category" required>
+        <option value="" disabled selected hidden>Select Category</option>
+        <option value="electronics">electronics</option>
+        <option value="clothing">clothing</option>
+        <option value="home & garden">home & garden</option>
+        <option value="health & beauty">health & beauty</option>
+        <option value="toys & games">toys & games</option>
+      </select>
+    </div>
+
+    <div class="input-box">
+      <label>Quantity</label>
+      <input type="number" name="quantity" placeholder="Enter quantity" min="1" required>
+    </div>
+
+    <div class="input-box">
+      <label>Device Used</label>
+      <select name="device_used" required>
+        <option value="" disabled selected hidden>Select Device</option>
+        <option value="mobile">mobile</option>
+        <option value="desktop">desktop</option>
+        <option value="tablet">tablet</option>
+      </select>
+    </div>
+
+    <div class="input-box">
+      <label>Address Match</label>
+      <select name="address_match" required>
+        <option value="" disabled selected hidden>Does Address Match?</option>
+        <option value="1">1 </option>
+        <option value="0">0 </option>
+      </select>
+    </div>
+
+    <button class="submit-btn" type="submit">Detect Fraud</button>
+  </form>
+</div>
+
+</body>
+</html>

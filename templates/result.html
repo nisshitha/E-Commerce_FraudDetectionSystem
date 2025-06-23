@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transaction Result</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            background: black;
+            overflow-x: hidden;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        video.bg-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+            max-width: 700px;
+            width: 90%;
+            text-align: center;
+            margin: 60px auto;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: bold;
+            text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+            margin-bottom: 30px;
+        }
+
+        .result-text {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .risk-score {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ffcc00;
+            margin-bottom: 20px;
+        }
+
+        .lime-img {
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .lime-img img {
+            width: 400px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 🔁 Background Video -->
+<video class="bg-video" autoplay loop muted>
+    <source src="{{ url_for('static', filename='resultpg.mp4') }}" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<!-- 🧠 Result Container -->
+<div class="container">
+    <h1>RESULT:</h1>
+
+    <p class="risk-score">Risk Score: {{ risk_score }}/100</p>
+
+    <p class="result-text">
+        {% if is_fraud %}
+            ⚠️ <strong>Fraudulent Transaction Detected</strong> (Confidence: {{ confidence_level }})
+        {% else %}
+            ✅ <strong>Safe Transaction</strong> (Confidence: {{ confidence_level }})
+        {% endif %}
+    </p>
+
+    <div class="lime-img">
+        <img src="{{ url_for('static', filename='lime_explanation.png') }}" alt="LIME Explanation">
+    </div>
+</div>
+
+</body>
+</html>

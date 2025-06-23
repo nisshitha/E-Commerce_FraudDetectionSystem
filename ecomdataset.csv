@@ -1,0 +1,501 @@
+Transaction.Date,Transaction.Amount,Customer.Age,Is.Fraudulent,Account.Age.Days,Transaction.Hour,source,browser,sex,Payment.Method,Product.Category,Quantity,Device.Used,Address.Match
+24-03-2024 00:32,415.51,49,0,44,0,Direct,Chrome,F,debit card,clothing,3,tablet,0
+01-04-2024 21:16,214.67,36,0,149,21,SEO,IE,F,PayPal,clothing,4,mobile,1
+25-09-2015 20:27,30,36,0,89,20,SEO,FireFox,M,PayPal,electronics,4,mobile,0
+30-08-2015 06:37,17,44,0,89,6,Ads,Chrome,F,credit card,home & garden,3,tablet,1
+03-02-2024 23:13,109.22,36,0,180,23,SEO,Chrome,F,PayPal,electronics,4,desktop,1
+27-01-2024 06:39,226.7,39,0,214,6,SEO,IE,M,PayPal,toys & games,3,mobile,0
+26-01-2024 13:33,125.6,22,0,263,13,Ads,Chrome,F,credit card,clothing,3,mobile,0
+02-07-2015 00:14,75,37,0,56,0,SEO,Chrome,F,PayPal,home & garden,3,desktop,1
+09-01-2024 05:01,334.34,20,0,77,5,Ads,Chrome,F,bank transfer,health & beauty,1,mobile,1
+16-01-2024 01:12,331.92,28,0,226,1,Ads,FireFox,F,bank transfer,toys & games,4,tablet,0
+04-01-2024 21:34,217.64,23,0,270,21,SEO,IE,F,PayPal,clothing,3,desktop,1
+10-02-2024 09:03,113.18,48,0,121,9,SEO,Chrome,M,credit card,clothing,2,tablet,1
+07-01-2024 20:42,14.01,53,0,55,20,Ads,Chrome,M,bank transfer,clothing,1,desktop,0
+02-03-2024 04:29,580.45,47,0,190,4,Direct,Chrome,M,PayPal,electronics,2,desktop,1
+25-03-2024 20:18,726.87,30,0,43,20,SEO,Chrome,F,PayPal,home & garden,5,mobile,0
+03-02-2024 00:38,250.08,44,0,160,0,Ads,Chrome,F,PayPal,home & garden,3,mobile,0
+20-02-2024 18:50,106.44,40,0,113,18,SEO,Chrome,F,PayPal,home & garden,2,mobile,0
+15-08-2015 07:48,56,22,1,56,7,SEO,IE,F,credit card,home & garden,3,tablet,1
+14-01-2024 09:11,425.69,34,0,19,9,Direct,IE,M,PayPal,toys & games,5,desktop,0
+01-01-2024 07:06,46.41,36,0,205,7,Ads,Safari,F,bank transfer,toys & games,3,mobile,0
+04-01-2024 15:53,628.25,39,0,33,15,Direct,IE,M,PayPal,home & garden,4,mobile,0
+04-02-2024 21:30,49.39,54,0,240,21,SEO,Safari,M,debit card,clothing,4,mobile,0
+10-03-2024 08:36,656.21,33,0,176,8,Ads,Safari,M,bank transfer,toys & games,2,mobile,0
+06-04-2015 08:33,12,31,0,59,8,SEO,Chrome,M,credit card,health & beauty,4,desktop,0
+19-03-2024 02:36,205.4,37,0,45,2,Direct,FireFox,M,PayPal,health & beauty,4,desktop,1
+22-02-2024 03:35,1809.75,44,1,30,1,SEO,Opera,M,debit card,clothing,2,mobile,0
+11-05-2015 08:09,10,34,0,104,8,Ads,Chrome,F,PayPal,clothing,2,mobile,0
+26-01-2015 04:28,14,23,0,9,4,Direct,Chrome,F,bank transfer,home & garden,4,mobile,1
+25-03-2015 20:14,32,30,0,75,20,SEO,FireFox,M,PayPal,health & beauty,1,mobile,1
+27-03-2024 12:35,483.14,41,0,149,12,SEO,IE,F,debit card,health & beauty,5,desktop,0
+02-04-2015 21:50,19,34,0,49,21,Ads,Chrome,M,bank transfer,toys & games,1,tablet,0
+15-02-2024 06:42,197.96,34,0,280,6,Ads,Safari,M,credit card,toys & games,1,tablet,0
+06-10-2015 01:41,28,44,1,78,1,SEO,Safari,F,PayPal,home & garden,5,desktop,0
+24-03-2024 03:30,106.89,15,0,32,3,SEO,Chrome,F,debit card,clothing,3,desktop,1
+10-03-2024 16:14,419,44,1,362,16,Ads,IE,F,bank transfer,clothing,5,tablet,1
+03-01-2015 22:55,27,18,1,0,22,Direct,Chrome,M,bank transfer,health & beauty,3,desktop,0
+02-07-2015 07:07,45,29,0,99,7,SEO,IE,F,PayPal,home & garden,3,desktop,0
+24-03-2024 15:48,694.04,17,0,298,15,Ads,Chrome,M,bank transfer,home & garden,1,tablet,1
+04-02-2024 11:15,410.38,33,0,147,11,SEO,IE,M,PayPal,home & garden,3,desktop,1
+07-10-2015 15:20,49,24,0,75,15,SEO,FireFox,M,debit card,electronics,2,desktop,1
+29-03-2024 03:38,103.02,28,0,98,3,Direct,Chrome,M,bank transfer,clothing,5,desktop,0
+10-02-2024 17:01,222.85,40,0,218,17,Direct,FireFox,F,bank transfer,health & beauty,1,desktop,1
+07-01-2024 14:58,30.12,21,0,197,14,SEO,IE,F,PayPal,electronics,4,desktop,0
+31-03-2024 04:34,609.14,23,0,222,4,SEO,FireFox,M,credit card,electronics,1,tablet,1
+03-09-2015 07:30,24,35,0,106,7,Direct,IE,M,credit card,home & garden,4,desktop,1
+09-03-2015 08:02,23,27,0,49,8,SEO,FireFox,F,credit card,electronics,2,desktop,1
+19-05-2015 19:26,67,31,0,85,19,Direct,IE,F,credit card,toys & games,4,mobile,1
+02-02-2024 01:47,93.51,43,0,175,1,SEO,FireFox,M,bank transfer,clothing,2,tablet,1
+08-07-2015 14:24,32,41,0,103,14,Direct,Chrome,F,credit card,toys & games,3,desktop,0
+31-01-2024 10:19,151.25,17,0,197,10,Direct,Safari,M,debit card,home & garden,4,desktop,1
+22-07-2015 14:34,48,41,0,77,14,Ads,Chrome,M,credit card,electronics,3,desktop,1
+22-09-2015 05:32,34,25,0,70,5,Ads,Chrome,M,PayPal,electronics,3,desktop,1
+02-04-2024 19:12,66.23,39,0,241,19,Ads,IE,M,credit card,home & garden,3,desktop,1
+29-03-2024 07:41,278.52,21,0,60,7,Direct,Chrome,F,bank transfer,health & beauty,2,tablet,0
+19-02-2024 12:16,301.68,15,0,53,12,SEO,Chrome,M,credit card,home & garden,5,tablet,1
+10-03-2024 05:49,106.13,35,0,338,5,SEO,Chrome,F,bank transfer,health & beauty,1,tablet,1
+06-01-2024 14:46,30.11,32,0,355,14,Direct,IE,F,credit card,clothing,4,tablet,1
+09-05-2015 07:48,20,37,0,84,7,Ads,IE,M,bank transfer,electronics,3,tablet,1
+01-01-2024 19:50,429.82,42,1,64,19,Ads,IE,M,debit card,health & beauty,2,desktop,1
+12-02-2024 10:59,141.27,40,0,88,10,SEO,Chrome,M,credit card,health & beauty,3,mobile,1
+27-02-2024 18:59,188.11,35,0,177,18,SEO,IE,F,debit card,toys & games,1,mobile,0
+10-03-2024 13:19,328.5,47,0,337,13,Direct,FireFox,F,bank transfer,clothing,1,mobile,0
+04-02-2024 04:44,292.12,11,0,311,4,Ads,IE,M,credit card,electronics,3,desktop,0
+21-09-2015 03:34,19,39,0,87,3,Direct,IE,F,credit card,toys & games,2,desktop,0
+07-08-2015 02:08,53,22,0,104,2,Ads,IE,F,credit card,toys & games,4,mobile,1
+08-05-2015 11:20,33,24,0,118,11,SEO,Safari,F,debit card,home & garden,1,desktop,1
+13-01-2015 03:00,18,34,1,0,3,SEO,Chrome,F,PayPal,health & beauty,5,desktop,0
+21-01-2024 00:50,192.98,30,0,222,0,Direct,IE,M,bank transfer,clothing,2,mobile,1
+28-09-2015 09:25,28,30,0,43,9,Direct,Safari,F,PayPal,health & beauty,2,tablet,1
+24-02-2024 04:56,258.65,51,0,55,4,Ads,FireFox,F,credit card,electronics,1,tablet,0
+06-01-2024 03:49,301.98,36,0,112,3,Direct,IE,M,PayPal,clothing,1,desktop,0
+27-02-2024 16:12,177.09,41,0,141,16,SEO,Chrome,F,credit card,electronics,3,tablet,0
+27-03-2024 11:58,255.68,45,0,175,11,Direct,Chrome,F,PayPal,health & beauty,1,tablet,0
+09-07-2015 10:02,49,49,0,106,10,Direct,FireFox,M,credit card,toys & games,2,mobile,0
+23-02-2024 12:42,270.89,37,0,69,12,Direct,IE,F,debit card,clothing,2,tablet,0
+27-04-2015 05:28,35,28,0,37,5,SEO,Chrome,M,bank transfer,electronics,2,desktop,0
+10-01-2024 13:36,40.46,38,0,132,13,Ads,Chrome,F,credit card,clothing,1,desktop,0
+03-10-2015 15:19,28,26,0,73,15,Ads,FireFox,F,debit card,home & garden,3,mobile,1
+13-02-2024 04:14,73.27,42,0,145,4,Ads,Chrome,F,credit card,electronics,4,desktop,0
+25-02-2024 21:48,159.19,23,0,216,21,SEO,IE,M,bank transfer,health & beauty,3,mobile,0
+05-01-2024 11:01,495.93,44,0,160,11,Direct,Chrome,F,debit card,electronics,5,desktop,1
+08-03-2024 15:33,161.45,48,0,359,15,SEO,Chrome,F,debit card,home & garden,2,mobile,1
+10-02-2024 20:10,233.05,32,0,233,20,SEO,Chrome,F,bank transfer,home & garden,3,tablet,0
+20-01-2024 04:06,119.95,22,0,181,4,Direct,Chrome,M,credit card,clothing,3,mobile,1
+08-01-2015 09:52,17,45,1,0,9,Ads,Chrome,M,bank transfer,electronics,5,mobile,0
+17-03-2024 06:46,115.28,29,0,220,6,SEO,FireFox,F,credit card,electronics,1,desktop,1
+23-09-2015 17:03,50,20,0,79,17,SEO,Chrome,M,PayPal,electronics,3,tablet,1
+03-02-2024 12:19,195.65,17,0,65,12,Ads,IE,M,debit card,health & beauty,5,mobile,0
+03-01-2024 21:59,411.67,37,0,243,21,Direct,Chrome,M,debit card,toys & games,2,desktop,0
+24-01-2024 13:56,55.38,30,0,235,13,Ads,IE,M,debit card,home & garden,4,tablet,0
+11-01-2015 00:35,18,23,1,0,0,Ads,Chrome,M,debit card,electronics,2,mobile,0
+28-01-2015 00:37,42,22,0,25,0,Direct,Chrome,M,credit card,home & garden,4,mobile,0
+13-01-2015 00:49,46,27,1,0,0,Ads,Safari,M,debit card,electronics,5,mobile,0
+18-03-2024 23:49,97.8,32,0,192,23,SEO,Safari,M,PayPal,toys & games,5,desktop,0
+02-04-2024 02:54,348.57,43,0,85,2,Ads,FireFox,M,debit card,health & beauty,5,tablet,0
+18-01-2024 15:32,407.94,31,0,48,15,Direct,FireFox,M,bank transfer,toys & games,4,tablet,0
+17-03-2024 05:51,125.86,58,0,352,5,Ads,FireFox,F,bank transfer,clothing,4,mobile,1
+17-05-2015 21:54,33,32,0,20,21,SEO,Chrome,M,debit card,home & garden,2,mobile,1
+11-03-2024 13:35,190.49,41,0,230,13,Ads,Chrome,F,debit card,clothing,4,tablet,0
+15-03-2024 17:54,107.07,28,0,306,17,Ads,Safari,M,bank transfer,health & beauty,2,desktop,1
+16-09-2015 23:15,26,36,0,109,23,SEO,IE,M,PayPal,health & beauty,1,mobile,1
+18-09-2015 01:53,49,29,0,66,1,Direct,IE,M,credit card,health & beauty,2,mobile,0
+24-06-2015 04:31,46,26,0,65,4,Ads,Safari,F,credit card,home & garden,5,desktop,1
+18-02-2024 06:55,65.51,28,0,333,6,Ads,Chrome,F,credit card,health & beauty,2,desktop,0
+04-01-2024 13:34,361.2,35,0,179,13,Ads,Safari,F,credit card,health & beauty,5,desktop,0
+19-01-2024 03:41,28.58,19,0,151,3,SEO,Chrome,M,credit card,clothing,4,mobile,1
+10-03-2024 19:52,371.3,28,1,27,19,Ads,Chrome,M,debit card,toys & games,4,desktop,0
+15-08-2015 02:41,26,27,0,97,2,SEO,Chrome,M,debit card,health & beauty,2,desktop,1
+10-02-2024 05:22,63.09,33,0,230,5,Ads,FireFox,F,debit card,home & garden,4,desktop,0
+28-06-2015 14:58,16,40,0,20,14,SEO,Safari,M,bank transfer,home & garden,3,desktop,1
+05-09-2015 18:23,9,29,0,21,18,Direct,IE,M,PayPal,toys & games,5,mobile,1
+09-09-2015 13:05,35,32,0,79,13,SEO,IE,M,PayPal,home & garden,3,mobile,0
+29-03-2024 21:45,187.94,35,0,236,21,Direct,Safari,F,debit card,home & garden,1,mobile,0
+01-03-2024 00:25,146.73,44,0,170,0,SEO,Chrome,M,debit card,electronics,1,desktop,1
+04-04-2015 10:48,69,24,0,72,10,Ads,Chrome,F,debit card,health & beauty,5,tablet,0
+12-01-2024 09:00,15.38,38,0,149,9,Ads,IE,F,debit card,home & garden,2,tablet,0
+07-01-2024 05:29,423.03,43,0,45,5,Ads,IE,M,credit card,clothing,4,desktop,1
+08-03-2024 07:08,110.59,28,0,240,7,Ads,Chrome,F,debit card,clothing,1,tablet,1
+03-03-2024 18:43,55.69,43,0,192,18,SEO,Safari,F,bank transfer,clothing,3,mobile,1
+06-01-2015 02:28,23,36,1,0,2,SEO,Safari,M,bank transfer,clothing,1,desktop,1
+25-05-2015 11:00,69,34,0,89,11,Ads,FireFox,M,bank transfer,home & garden,5,tablet,1
+29-03-2024 17:54,145.84,52,0,236,17,Direct,Chrome,F,bank transfer,clothing,4,desktop,1
+11-10-2015 01:45,72,30,0,115,1,Direct,Safari,F,debit card,toys & games,1,tablet,0
+06-03-2024 23:01,161.79,37,0,113,23,SEO,Safari,M,PayPal,health & beauty,3,mobile,1
+19-09-2015 13:24,59,55,0,72,13,SEO,Chrome,M,PayPal,home & garden,1,desktop,1
+20-06-2015 04:14,60,44,0,34,4,Ads,Chrome,M,PayPal,electronics,4,desktop,1
+28-09-2015 02:09,13,24,0,92,2,Ads,FireFox,M,PayPal,clothing,5,desktop,0
+07-06-2015 05:40,53,39,0,17,5,Ads,Safari,M,bank transfer,toys & games,2,mobile,1
+08-01-2024 13:15,461.82,36,0,262,13,SEO,Safari,M,PayPal,clothing,2,desktop,1
+03-02-2024 22:30,875.23,13,0,161,22,SEO,IE,F,PayPal,electronics,4,mobile,0
+08-03-2024 10:12,183.21,29,0,260,10,Direct,Opera,M,credit card,electronics,3,desktop,1
+19-03-2024 18:47,122.05,31,0,164,18,Ads,Chrome,F,bank transfer,clothing,1,mobile,1
+08-03-2024 23:34,222.07,39,0,62,23,Ads,Chrome,F,credit card,clothing,5,mobile,0
+17-02-2024 08:20,406.16,31,0,52,8,Ads,IE,F,PayPal,electronics,2,tablet,0
+06-06-2015 18:56,30,32,0,87,18,Ads,Chrome,M,PayPal,electronics,4,tablet,1
+03-06-2015 09:41,69,26,0,30,9,Direct,Chrome,F,debit card,home & garden,2,mobile,1
+24-07-2015 03:50,19,29,0,28,3,SEO,Safari,M,debit card,toys & games,4,tablet,1
+21-02-2024 08:03,311.73,29,0,264,8,SEO,Chrome,F,bank transfer,toys & games,1,desktop,1
+03-01-2024 23:01,83.93,42,0,76,23,Ads,FireFox,M,PayPal,toys & games,1,mobile,1
+15-05-2015 09:29,73,37,0,80,9,SEO,Safari,M,bank transfer,clothing,5,desktop,0
+10-03-2024 13:27,226.91,15,0,229,13,Ads,Chrome,F,PayPal,toys & games,1,desktop,1
+25-06-2015 15:25,35,28,0,116,15,SEO,Chrome,M,PayPal,home & garden,3,desktop,1
+02-03-2024 18:27,50.68,45,0,89,18,SEO,Safari,F,credit card,electronics,3,desktop,0
+09-08-2015 11:55,21,20,0,47,11,SEO,FireFox,M,bank transfer,health & beauty,4,desktop,1
+04-01-2015 23:37,25,38,1,0,23,Direct,Chrome,F,debit card,clothing,1,mobile,0
+18-01-2024 01:25,282.63,37,0,329,1,Ads,Chrome,F,bank transfer,toys & games,4,tablet,0
+16-08-2015 13:26,33,36,0,52,13,Ads,IE,F,credit card,health & beauty,3,tablet,1
+24-05-2015 14:41,20,29,0,32,14,SEO,Chrome,F,bank transfer,electronics,5,mobile,1
+22-03-2024 18:21,149.22,40,0,342,18,SEO,IE,M,bank transfer,clothing,2,desktop,0
+20-06-2015 12:00,28,26,0,4,12,SEO,FireFox,M,PayPal,health & beauty,3,desktop,0
+26-03-2024 13:19,153.42,23,0,359,13,Direct,Chrome,M,credit card,health & beauty,3,desktop,1
+19-01-2024 21:29,162.33,20,0,211,21,Ads,Safari,F,debit card,electronics,5,mobile,1
+30-08-2015 03:59,55,30,0,108,3,Ads,FireFox,M,PayPal,toys & games,1,mobile,1
+21-03-2024 04:15,428.89,50,0,38,4,Ads,IE,F,bank transfer,clothing,3,tablet,1
+17-07-2015 10:35,43,54,0,36,10,SEO,FireFox,F,credit card,electronics,3,tablet,0
+15-04-2015 09:04,12,31,0,15,9,Direct,IE,F,credit card,toys & games,1,tablet,0
+01-01-2024 19:46,50.65,40,0,138,19,Ads,Safari,M,PayPal,toys & games,4,desktop,1
+25-09-2015 15:44,27,29,0,75,15,Direct,Safari,F,bank transfer,home & garden,1,tablet,1
+06-04-2015 05:50,47,34,0,67,5,Direct,Safari,M,credit card,health & beauty,1,tablet,0
+29-01-2024 15:05,29.3,16,0,250,15,Ads,Chrome,M,bank transfer,clothing,4,mobile,1
+17-03-2024 17:56,25.16,33,0,107,17,Direct,Safari,M,credit card,health & beauty,5,mobile,1
+02-03-2024 20:35,47.51,39,0,39,20,Ads,IE,M,credit card,electronics,2,tablet,0
+07-01-2024 02:32,268.32,33,0,159,2,Ads,IE,M,PayPal,electronics,1,tablet,0
+11-05-2015 22:56,32,35,0,86,22,Direct,FireFox,F,bank transfer,toys & games,4,tablet,1
+14-02-2015 18:18,37,26,0,35,18,SEO,IE,F,PayPal,health & beauty,1,desktop,0
+20-07-2015 09:18,37,43,0,65,9,Direct,IE,M,credit card,toys & games,4,desktop,0
+27-02-2015 12:51,30,20,0,20,12,Direct,IE,F,debit card,health & beauty,2,mobile,1
+03-04-2024 03:03,138.93,46,1,111,3,SEO,FireFox,F,bank transfer,toys & games,1,tablet,1
+21-07-2015 16:00,43,35,0,17,16,Ads,IE,M,credit card,electronics,4,tablet,0
+23-02-2024 22:08,412.91,42,0,353,22,Direct,Chrome,F,bank transfer,health & beauty,1,desktop,1
+16-01-2024 15:31,104.64,42,0,1,15,Direct,Safari,F,PayPal,clothing,1,desktop,1
+11-06-2015 07:57,34,51,0,86,7,SEO,Chrome,M,credit card,toys & games,1,desktop,1
+08-02-2024 03:08,62.06,33,0,283,3,SEO,Safari,F,credit card,home & garden,2,tablet,0
+26-02-2015 23:23,38,21,0,54,23,Ads,IE,F,debit card,health & beauty,1,desktop,1
+10-07-2015 05:16,65,22,0,61,5,SEO,Chrome,F,PayPal,home & garden,3,desktop,1
+04-06-2015 16:48,37,20,0,108,16,Direct,Chrome,M,debit card,clothing,3,tablet,1
+28-02-2024 03:43,263.99,36,0,365,3,SEO,Chrome,F,PayPal,toys & games,3,desktop,0
+14-06-2015 13:17,15,32,0,112,13,Ads,IE,F,credit card,home & garden,3,mobile,1
+03-04-2015 04:52,34,45,0,90,4,SEO,IE,F,debit card,toys & games,3,mobile,1
+28-04-2015 23:25,61,40,0,96,23,Ads,Safari,M,debit card,toys & games,5,desktop,0
+11-01-2024 10:01,11.25,29,0,70,10,Ads,IE,F,debit card,home & garden,3,tablet,0
+22-10-2015 13:48,29,25,0,108,13,Ads,Chrome,M,PayPal,home & garden,1,tablet,1
+30-01-2024 14:21,88.65,18,0,195,14,Direct,Chrome,F,bank transfer,electronics,4,mobile,0
+21-09-2015 05:08,56,34,0,79,5,SEO,Chrome,M,credit card,home & garden,2,mobile,0
+24-03-2015 16:04,18,30,0,62,16,Ads,Chrome,F,credit card,home & garden,2,mobile,0
+03-03-2024 02:44,237.22,52,0,185,2,SEO,IE,F,credit card,clothing,5,tablet,1
+09-08-2015 13:21,30,26,0,97,13,Ads,FireFox,F,bank transfer,toys & games,1,desktop,0
+19-02-2024 02:54,86.54,35,0,232,2,SEO,IE,F,credit card,clothing,3,mobile,1
+07-05-2015 13:49,18,24,0,96,13,SEO,Safari,M,PayPal,health & beauty,1,mobile,1
+03-04-2024 00:06,52.64,35,0,309,0,SEO,Chrome,F,bank transfer,home & garden,5,tablet,1
+21-03-2024 01:52,74.06,40,0,67,1,Ads,Chrome,F,credit card,electronics,2,desktop,0
+24-02-2024 07:04,592.94,33,0,151,7,SEO,Chrome,F,credit card,clothing,5,tablet,0
+05-09-2015 02:00,28,24,0,100,2,Direct,Opera,F,PayPal,toys & games,2,desktop,0
+12-01-2015 17:38,33,45,1,0,17,Ads,Chrome,M,bank transfer,electronics,2,mobile,0
+12-04-2015 15:21,22,20,0,18,15,Direct,FireFox,M,credit card,electronics,4,mobile,1
+30-01-2024 12:07,300.64,36,0,179,12,Ads,Chrome,F,credit card,health & beauty,5,desktop,1
+26-06-2015 06:29,30,31,0,66,6,SEO,IE,M,bank transfer,home & garden,1,desktop,1
+15-02-2024 22:00,257.99,34,0,159,22,Ads,Safari,F,PayPal,home & garden,2,mobile,1
+05-05-2015 03:27,50,36,0,49,3,SEO,Opera,M,debit card,clothing,3,desktop,1
+01-02-2024 19:42,990.87,26,0,53,19,Ads,Opera,M,debit card,health & beauty,3,desktop,0
+01-08-2015 06:13,21,18,0,23,6,SEO,Chrome,M,bank transfer,home & garden,2,tablet,0
+16-09-2015 16:58,50,31,0,53,16,Direct,Safari,M,debit card,health & beauty,2,tablet,1
+24-03-2024 17:37,110.16,22,0,256,17,Direct,Chrome,M,bank transfer,clothing,4,desktop,1
+09-01-2024 13:25,122.6,40,0,348,13,Ads,Chrome,F,debit card,toys & games,4,desktop,1
+16-03-2024 21:39,270.82,38,0,204,21,SEO,IE,F,bank transfer,health & beauty,2,desktop,1
+09-02-2015 06:54,29,29,0,9,6,Ads,FireFox,M,debit card,health & beauty,3,mobile,1
+18-08-2015 20:02,21,19,0,112,20,Direct,Chrome,F,debit card,home & garden,3,mobile,1
+24-05-2015 15:05,44,27,0,95,15,Ads,Safari,F,credit card,clothing,3,mobile,1
+21-03-2024 00:59,49.37,34,0,98,0,Ads,Chrome,F,bank transfer,health & beauty,3,mobile,0
+26-02-2024 22:12,830.65,35,0,72,22,SEO,Safari,M,PayPal,clothing,5,desktop,0
+17-11-2015 04:48,22,35,0,109,4,Direct,FireFox,M,debit card,electronics,2,mobile,0
+31-03-2024 04:09,324.17,25,0,169,4,Direct,IE,F,bank transfer,toys & games,4,mobile,1
+08-08-2015 16:08,32,27,0,90,16,Direct,Chrome,F,debit card,home & garden,5,tablet,0
+13-02-2024 01:31,231.57,30,0,84,1,Ads,Safari,F,credit card,clothing,4,tablet,0
+10-03-2015 12:49,45,39,0,61,12,SEO,Chrome,F,debit card,toys & games,5,desktop,0
+24-05-2015 22:09,34,23,0,77,22,SEO,IE,M,credit card,toys & games,4,tablet,0
+13-01-2015 03:37,28,41,1,0,3,SEO,FireFox,F,credit card,home & garden,2,tablet,0
+12-07-2015 16:25,18,38,0,85,16,SEO,Chrome,F,debit card,clothing,5,mobile,1
+29-01-2024 17:28,50.43,42,0,359,17,SEO,IE,M,credit card,clothing,2,tablet,0
+13-03-2024 01:36,46.04,29,0,88,1,SEO,IE,M,debit card,home & garden,1,tablet,1
+04-09-2015 16:30,14,28,0,52,16,Ads,Safari,F,credit card,health & beauty,1,tablet,0
+04-05-2015 17:17,34,29,0,37,17,Direct,Chrome,F,bank transfer,home & garden,3,desktop,0
+19-05-2015 04:36,24,45,0,103,4,Ads,Safari,F,debit card,toys & games,3,tablet,1
+04-01-2024 18:33,31.89,38,0,114,18,Ads,Chrome,M,PayPal,toys & games,2,mobile,1
+14-03-2024 17:22,37.11,31,0,315,17,Ads,Safari,M,credit card,home & garden,1,tablet,1
+27-07-2015 01:23,26,40,0,39,1,SEO,IE,F,debit card,clothing,5,desktop,0
+07-01-2024 20:45,170.54,48,0,265,20,Direct,Chrome,M,debit card,toys & games,1,tablet,1
+21-03-2024 01:38,135.66,25,0,326,1,SEO,FireFox,M,bank transfer,clothing,5,desktop,0
+15-08-2015 11:28,42,36,1,103,11,Ads,IE,F,credit card,electronics,2,mobile,0
+28-03-2024 08:11,59.05,32,0,159,8,SEO,IE,F,debit card,electronics,3,tablet,1
+16-03-2015 01:24,15,23,0,55,1,SEO,FireFox,M,debit card,home & garden,1,desktop,1
+12-02-2024 18:51,404.07,27,0,312,18,Direct,Chrome,F,debit card,toys & games,5,desktop,1
+23-08-2015 08:16,46,43,0,55,8,Ads,Safari,F,credit card,home & garden,1,mobile,0
+04-03-2024 21:06,17.18,41,0,169,21,SEO,IE,M,PayPal,electronics,3,mobile,1
+06-03-2015 01:53,21,41,0,55,1,SEO,Safari,M,credit card,clothing,4,tablet,0
+01-03-2015 05:48,26,34,0,50,5,Ads,Chrome,F,credit card,home & garden,2,mobile,0
+03-11-2015 06:23,35,47,0,106,6,Ads,IE,M,PayPal,clothing,3,mobile,0
+24-11-2015 00:35,16,48,1,115,0,Direct,Chrome,F,credit card,toys & games,4,desktop,1
+10-01-2015 22:30,15,40,1,0,22,Ads,Chrome,M,PayPal,home & garden,3,tablet,1
+16-10-2015 11:51,19,27,1,111,11,SEO,Chrome,F,bank transfer,health & beauty,5,tablet,1
+30-01-2024 09:06,739.78,31,0,168,9,SEO,Chrome,M,bank transfer,health & beauty,2,mobile,0
+23-11-2015 20:29,42,26,0,117,20,Ads,Safari,M,PayPal,home & garden,4,mobile,1
+28-01-2024 11:40,385.2,30,0,145,11,SEO,Chrome,F,bank transfer,health & beauty,3,desktop,0
+05-05-2015 23:51,42,39,0,91,23,Direct,IE,M,credit card,toys & games,3,tablet,1
+24-01-2024 17:56,601.94,22,1,27,3,SEO,Safari,F,credit card,health & beauty,5,tablet,0
+10-03-2024 00:01,144.7,34,0,147,0,Direct,Safari,F,PayPal,electronics,3,desktop,1
+29-03-2024 20:59,118.55,28,0,233,20,Direct,IE,F,credit card,health & beauty,5,desktop,1
+31-03-2015 17:34,35,40,0,0,17,Ads,FireFox,M,PayPal,toys & games,1,mobile,1
+28-01-2024 10:17,326.39,44,0,225,10,Direct,Chrome,M,credit card,toys & games,2,desktop,0
+30-08-2015 07:33,15,36,0,108,7,Direct,IE,M,bank transfer,home & garden,1,desktop,1
+17-03-2024 15:03,196.81,25,0,329,15,SEO,Safari,F,bank transfer,toys & games,3,tablet,0
+31-01-2024 00:16,89.79,45,0,123,0,Ads,Safari,F,PayPal,electronics,3,mobile,0
+12-07-2015 03:13,20,43,0,54,3,SEO,IE,F,debit card,home & garden,1,desktop,0
+21-05-2015 12:09,25,38,0,90,12,SEO,Safari,F,debit card,home & garden,4,desktop,1
+29-03-2015 16:50,33,25,0,32,16,Ads,FireFox,M,debit card,home & garden,5,tablet,0
+10-01-2024 16:50,38.03,34,0,301,16,SEO,Chrome,F,bank transfer,clothing,1,mobile,0
+11-05-2015 13:29,21,34,0,3,13,SEO,IE,M,PayPal,electronics,2,mobile,1
+29-02-2024 06:52,81.21,41,0,127,6,SEO,Safari,M,bank transfer,health & beauty,4,desktop,0
+03-07-2015 22:13,15,44,0,50,22,SEO,Chrome,M,bank transfer,clothing,2,tablet,1
+29-11-2015 10:22,48,19,0,107,10,SEO,FireFox,F,bank transfer,home & garden,3,desktop,0
+24-02-2024 06:02,96.21,29,0,252,6,Direct,FireFox,F,bank transfer,health & beauty,2,tablet,0
+16-03-2024 08:56,78.65,31,1,98,8,Direct,Chrome,M,PayPal,toys & games,3,desktop,1
+28-03-2024 05:03,203.76,31,0,93,5,Direct,Chrome,F,bank transfer,clothing,5,tablet,0
+24-01-2024 10:07,217,30,0,116,10,SEO,Chrome,F,debit card,clothing,4,mobile,1
+14-03-2024 10:09,242.06,50,0,177,10,Ads,Chrome,M,bank transfer,toys & games,4,desktop,1
+03-04-2015 04:30,40,41,0,64,4,Ads,Chrome,M,PayPal,clothing,3,mobile,1
+02-01-2024 18:38,48.23,33,0,252,18,Ads,Safari,M,credit card,toys & games,1,desktop,0
+15-01-2024 09:43,50.53,46,0,272,9,SEO,IE,F,debit card,toys & games,1,mobile,1
+28-03-2024 15:48,59.04,19,0,338,15,SEO,IE,M,PayPal,toys & games,2,mobile,0
+08-04-2015 08:35,23,40,0,53,8,Ads,IE,F,bank transfer,home & garden,3,tablet,1
+29-01-2024 21:53,573.05,35,0,45,21,SEO,Safari,F,debit card,clothing,2,tablet,1
+08-02-2024 02:14,114.1,33,1,206,2,SEO,IE,M,PayPal,clothing,4,mobile,1
+22-03-2024 03:48,80.4,12,0,273,3,Ads,IE,F,PayPal,home & garden,4,mobile,1
+20-03-2024 12:09,214.65,47,0,244,12,Ads,Chrome,M,PayPal,electronics,4,desktop,0
+24-04-2015 12:09,27,18,0,100,12,SEO,FireFox,M,debit card,clothing,3,mobile,0
+18-02-2024 18:28,29.95,29,0,121,18,SEO,IE,F,credit card,clothing,1,mobile,0
+23-03-2015 13:13,46,31,0,50,13,SEO,Chrome,M,PayPal,toys & games,1,mobile,0
+10-08-2015 17:59,32,43,0,15,17,Ads,Chrome,M,bank transfer,electronics,4,mobile,0
+21-01-2024 03:20,11.11,47,0,230,3,Ads,IE,F,debit card,clothing,1,desktop,0
+01-12-2015 04:05,51,27,0,107,4,Direct,Chrome,M,debit card,clothing,2,tablet,1
+20-08-2015 14:33,62,45,0,19,14,Ads,Chrome,M,PayPal,electronics,2,desktop,0
+02-10-2015 20:55,24,19,0,74,20,Ads,IE,M,PayPal,clothing,3,desktop,1
+26-02-2024 05:49,1894.1,37,1,39,5,SEO,Chrome,M,PayPal,electronics,5,mobile,0
+21-08-2015 20:41,25,27,0,45,20,Ads,Chrome,M,debit card,toys & games,4,mobile,1
+02-02-2024 06:42,339.51,45,0,172,6,SEO,FireFox,F,bank transfer,toys & games,2,tablet,1
+17-02-2024 08:48,90.99,39,0,233,8,SEO,Chrome,F,debit card,clothing,3,mobile,0
+26-02-2024 12:42,164.37,25,0,74,12,Ads,Chrome,M,debit card,health & beauty,5,tablet,0
+23-03-2024 16:53,146.93,39,0,343,16,Ads,Chrome,M,PayPal,clothing,1,tablet,0
+18-01-2024 21:51,235.75,33,1,46,21,Direct,IE,F,PayPal,toys & games,1,desktop,0
+26-03-2024 14:24,128.31,18,0,336,14,Ads,IE,F,credit card,home & garden,2,mobile,0
+17-10-2015 06:54,61,38,0,115,6,Ads,Chrome,M,credit card,health & beauty,2,desktop,0
+04-01-2015 17:03,48,44,1,0,17,SEO,FireFox,F,credit card,toys & games,3,tablet,0
+24-01-2024 02:07,2257.9,34,1,55,5,Ads,FireFox,M,debit card,health & beauty,3,tablet,0
+18-08-2015 08:08,58,20,0,85,8,SEO,Chrome,M,bank transfer,clothing,5,mobile,0
+28-06-2015 17:57,19,21,0,48,17,Ads,IE,M,debit card,health & beauty,1,desktop,1
+27-05-2015 19:59,52,31,0,40,19,Ads,FireFox,F,PayPal,toys & games,3,desktop,1
+14-02-2024 21:52,166.96,30,0,292,21,Direct,Safari,F,debit card,clothing,1,tablet,0
+13-03-2024 00:17,1614.5,39,1,21,0,Ads,Safari,M,bank transfer,clothing,4,mobile,0
+01-02-2024 07:19,153.99,32,0,261,7,SEO,Chrome,M,debit card,electronics,4,mobile,0
+24-02-2024 15:31,146.52,36,0,263,15,Ads,Chrome,M,debit card,home & garden,5,mobile,0
+11-07-2015 05:22,11,37,0,18,5,SEO,Safari,F,debit card,toys & games,2,desktop,0
+07-05-2015 02:07,36,46,0,12,2,Direct,IE,M,debit card,toys & games,4,tablet,1
+27-05-2015 11:36,12,31,0,58,11,SEO,Safari,M,PayPal,toys & games,5,mobile,0
+23-03-2024 04:39,44.5,33,0,149,4,Ads,Chrome,F,debit card,clothing,3,tablet,1
+07-11-2015 15:44,18,33,0,92,15,Ads,Safari,M,bank transfer,home & garden,3,desktop,1
+04-01-2024 00:53,17.48,39,0,107,0,SEO,Chrome,M,debit card,toys & games,5,desktop,1
+17-02-2024 20:05,91.36,35,0,234,20,Ads,Chrome,M,bank transfer,clothing,1,mobile,0
+05-01-2024 04:04,78.28,39,0,307,4,SEO,Opera,M,PayPal,toys & games,5,tablet,1
+14-06-2015 10:30,35,42,0,84,10,Ads,Chrome,M,credit card,toys & games,2,tablet,1
+18-03-2024 17:14,13.57,29,0,84,17,Ads,Chrome,M,PayPal,health & beauty,5,tablet,1
+24-02-2015 01:02,38,21,0,10,1,SEO,Chrome,M,debit card,home & garden,5,tablet,0
+09-02-2024 18:21,142.3,27,0,316,18,Ads,IE,M,bank transfer,health & beauty,5,desktop,1
+30-07-2015 14:31,21,20,0,95,14,Ads,FireFox,F,credit card,health & beauty,1,tablet,0
+05-04-2015 21:09,28,32,0,52,21,Ads,Chrome,F,PayPal,home & garden,5,desktop,0
+25-02-2024 15:02,253.64,23,0,139,15,SEO,IE,F,bank transfer,health & beauty,3,mobile,1
+03-05-2015 04:13,65,21,0,114,4,Direct,IE,M,PayPal,electronics,5,tablet,0
+19-08-2015 23:37,54,43,1,88,23,Ads,IE,F,credit card,electronics,3,desktop,0
+12-04-2015 15:06,37,28,0,34,15,Ads,FireFox,M,debit card,electronics,4,tablet,1
+26-01-2015 09:10,27,35,0,17,9,Ads,Chrome,M,credit card,electronics,4,mobile,0
+16-01-2024 05:57,146.25,45,0,293,5,Ads,Chrome,F,bank transfer,electronics,4,tablet,0
+06-05-2015 19:53,34,30,0,70,19,Ads,Chrome,M,PayPal,clothing,5,tablet,1
+19-03-2024 00:50,94.76,31,0,23,0,Ads,IE,M,PayPal,home & garden,2,desktop,0
+07-05-2015 08:01,19,20,0,10,8,Ads,Opera,F,bank transfer,health & beauty,4,tablet,1
+19-08-2015 14:19,50,42,0,45,14,SEO,Safari,M,bank transfer,clothing,2,tablet,0
+04-08-2015 22:18,31,26,0,10,22,SEO,IE,M,PayPal,clothing,3,desktop,1
+01-09-2015 04:41,31,36,0,44,4,SEO,FireFox,M,bank transfer,electronics,5,desktop,0
+06-06-2015 20:51,10,32,0,1,20,Ads,IE,M,credit card,toys & games,4,mobile,1
+25-01-2024 02:43,310.83,46,0,166,2,Ads,Chrome,M,PayPal,toys & games,4,tablet,1
+14-06-2015 12:42,79,52,0,114,12,Ads,IE,F,credit card,home & garden,3,tablet,1
+22-07-2015 18:47,81,44,0,68,18,SEO,Chrome,F,credit card,clothing,1,tablet,0
+10-08-2015 07:59,17,20,0,9,7,Direct,Chrome,M,PayPal,clothing,4,mobile,1
+29-03-2015 19:39,65,26,0,28,19,Ads,FireFox,F,PayPal,electronics,2,mobile,1
+22-04-2015 20:14,19,34,0,33,20,SEO,Safari,M,bank transfer,toys & games,1,mobile,1
+14-02-2024 22:10,409.22,44,0,272,22,SEO,Chrome,F,credit card,home & garden,5,desktop,1
+29-04-2015 22:16,84,43,0,13,22,SEO,Chrome,F,PayPal,clothing,1,desktop,1
+24-03-2024 01:10,95.52,23,0,105,1,SEO,FireFox,M,credit card,toys & games,2,mobile,1
+20-03-2024 13:05,13.88,39,0,344,13,Direct,FireFox,F,credit card,clothing,4,desktop,0
+11-03-2015 00:11,10,34,0,47,0,Ads,FireFox,M,debit card,health & beauty,1,desktop,0
+07-01-2024 17:37,728.79,30,0,53,17,SEO,IE,F,credit card,health & beauty,4,desktop,1
+26-03-2024 23:59,13.65,18,0,12,23,Direct,Chrome,F,PayPal,home & garden,5,tablet,1
+01-03-2024 08:36,157.02,15,0,11,8,SEO,Chrome,F,credit card,clothing,2,desktop,1
+02-03-2024 18:26,208.08,33,0,261,18,SEO,Safari,F,PayPal,home & garden,2,desktop,1
+03-11-2015 06:18,87,33,0,112,6,SEO,IE,F,PayPal,health & beauty,4,desktop,0
+18-08-2015 20:19,55,33,0,74,20,SEO,IE,M,debit card,home & garden,5,tablet,0
+18-01-2024 19:46,274,36,0,164,19,Direct,IE,M,bank transfer,home & garden,4,tablet,1
+22-02-2024 03:57,44.44,21,0,238,3,Ads,IE,M,debit card,health & beauty,5,tablet,1
+05-03-2024 19:06,16.39,54,0,109,19,SEO,IE,M,debit card,toys & games,5,tablet,0
+26-04-2015 23:22,41,37,0,31,23,Direct,FireFox,M,credit card,home & garden,1,desktop,0
+12-01-2024 20:07,195.02,51,0,260,20,Ads,IE,M,debit card,home & garden,4,mobile,1
+30-01-2024 22:26,145.16,26,0,29,22,SEO,Safari,F,debit card,electronics,4,desktop,0
+08-01-2024 23:07,481.65,44,0,168,23,Direct,Chrome,F,credit card,clothing,3,tablet,0
+28-02-2024 12:19,592.03,21,0,75,12,SEO,FireFox,F,credit card,home & garden,2,desktop,0
+21-03-2024 06:24,189.93,29,0,159,6,SEO,Chrome,M,debit card,health & beauty,2,tablet,1
+25-01-2024 21:00,145.82,33,0,186,21,SEO,FireFox,F,bank transfer,electronics,2,desktop,0
+28-05-2015 09:21,21,27,0,23,9,Direct,Chrome,M,PayPal,electronics,2,mobile,0
+03-09-2015 18:01,29,18,0,26,18,SEO,Chrome,F,credit card,home & garden,4,desktop,1
+01-06-2015 17:49,33,38,0,4,17,Direct,Chrome,F,debit card,health & beauty,1,desktop,1
+02-04-2024 05:20,195.72,39,0,31,5,Direct,Chrome,F,debit card,toys & games,1,tablet,0
+22-02-2024 03:11,108.43,31,0,107,3,Direct,Opera,F,PayPal,home & garden,4,mobile,1
+10-03-2024 16:26,170.05,38,0,347,16,Ads,Safari,M,PayPal,home & garden,2,desktop,1
+30-07-2015 06:04,37,29,0,14,6,Direct,IE,F,debit card,electronics,2,mobile,1
+08-06-2015 00:31,42,26,0,95,0,Ads,Safari,F,debit card,health & beauty,2,tablet,0
+22-02-2024 03:45,139.72,38,0,93,3,Direct,IE,F,debit card,electronics,3,mobile,1
+06-05-2015 13:53,32,42,0,7,13,SEO,IE,F,PayPal,home & garden,1,tablet,1
+06-06-2015 19:40,25,31,0,77,19,Ads,Safari,M,debit card,toys & games,2,mobile,1
+30-03-2024 17:19,207.36,36,0,160,17,Ads,IE,M,PayPal,electronics,4,desktop,1
+08-03-2024 09:54,401.75,20,0,31,9,Direct,FireFox,F,credit card,toys & games,2,desktop,0
+01-01-2024 15:20,344.4,47,1,46,4,Ads,Opera,F,bank transfer,toys & games,3,tablet,0
+10-03-2024 16:53,84.39,25,0,317,16,Ads,Chrome,M,credit card,toys & games,2,tablet,1
+31-07-2015 12:48,42,41,0,47,12,Ads,IE,M,credit card,clothing,3,tablet,0
+29-01-2024 04:34,142.64,45,0,59,4,SEO,Chrome,M,debit card,electronics,3,desktop,1
+09-01-2015 13:03,42,23,1,0,13,Ads,Chrome,F,PayPal,home & garden,5,mobile,0
+22-04-2015 05:06,27,23,0,2,5,Ads,IE,M,bank transfer,health & beauty,3,mobile,1
+19-02-2024 09:26,212.66,36,0,78,9,Ads,Chrome,F,debit card,health & beauty,3,tablet,0
+13-01-2024 11:30,167.32,30,0,56,11,Ads,Safari,M,credit card,clothing,2,mobile,0
+26-01-2024 22:07,221.59,35,0,167,22,Ads,FireFox,F,bank transfer,health & beauty,1,mobile,1
+03-03-2024 00:44,259.45,42,0,259,0,SEO,Chrome,F,bank transfer,electronics,1,desktop,0
+06-09-2015 13:00,40,28,0,42,13,Ads,Chrome,M,credit card,home & garden,5,tablet,1
+10-04-2015 06:18,28,25,1,44,6,Ads,IE,F,credit card,clothing,2,mobile,1
+10-02-2024 15:54,542.8,20,0,180,15,Ads,Chrome,F,debit card,clothing,2,mobile,1
+24-01-2024 20:50,285.97,43,0,68,20,Direct,Chrome,F,credit card,clothing,3,desktop,1
+18-08-2015 19:49,39,26,0,82,19,Direct,IE,F,debit card,electronics,1,desktop,0
+07-01-2024 15:49,486.22,19,1,17,5,Ads,Chrome,M,PayPal,electronics,2,desktop,1
+14-05-2015 14:47,43,40,0,85,14,Direct,Chrome,M,PayPal,clothing,4,mobile,0
+05-02-2015 17:14,59,43,0,9,17,Ads,FireFox,M,bank transfer,health & beauty,1,desktop,0
+13-02-2024 10:40,387.28,34,0,228,10,Ads,IE,F,debit card,health & beauty,4,desktop,1
+09-07-2015 12:02,86,41,0,14,12,Ads,IE,M,bank transfer,health & beauty,5,tablet,0
+04-02-2024 18:05,607.13,38,0,260,18,Direct,Chrome,F,PayPal,health & beauty,3,tablet,1
+09-02-2015 15:34,55,39,0,1,15,SEO,Chrome,F,debit card,home & garden,2,mobile,1
+28-06-2015 00:19,42,23,0,38,0,Ads,IE,F,credit card,clothing,4,desktop,1
+26-09-2015 15:12,33,32,0,84,15,SEO,FireFox,M,PayPal,clothing,5,mobile,0
+15-08-2015 02:42,24,34,0,49,2,SEO,Chrome,M,credit card,clothing,2,tablet,0
+26-04-2015 12:23,43,28,1,33,12,Ads,Safari,F,debit card,toys & games,3,desktop,0
+26-03-2015 02:19,48,32,0,21,2,SEO,Chrome,M,bank transfer,home & garden,4,desktop,1
+02-09-2015 04:18,9,43,0,59,4,SEO,Chrome,M,PayPal,health & beauty,3,mobile,0
+05-03-2024 13:52,76.6,40,0,5,13,Ads,FireFox,F,bank transfer,electronics,5,mobile,0
+11-01-2024 00:59,211.65,33,0,222,0,SEO,Opera,F,credit card,electronics,5,tablet,0
+13-05-2015 23:57,35,28,0,41,23,Ads,Safari,M,PayPal,electronics,3,mobile,0
+29-04-2015 06:39,38,27,0,30,6,SEO,IE,M,bank transfer,health & beauty,2,mobile,1
+25-02-2024 07:39,154.65,19,0,85,7,Ads,FireFox,F,bank transfer,toys & games,4,mobile,1
+26-01-2024 20:17,305.36,35,0,285,20,Ads,Chrome,M,PayPal,home & garden,1,desktop,1
+14-08-2015 16:45,48,46,0,77,16,SEO,IE,M,credit card,toys & games,3,mobile,0
+08-02-2024 03:36,342.46,40,0,217,3,SEO,Chrome,M,bank transfer,toys & games,3,desktop,0
+22-02-2024 23:44,150.44,17,0,3,23,Direct,Safari,F,credit card,electronics,5,tablet,0
+11-03-2015 01:23,73,48,1,20,1,SEO,Chrome,F,PayPal,clothing,2,tablet,0
+13-01-2024 10:49,41.6,50,0,152,10,SEO,Safari,M,debit card,health & beauty,1,desktop,0
+31-10-2015 14:08,24,28,0,87,14,Direct,Chrome,M,debit card,electronics,3,desktop,0
+16-04-2015 18:09,27,19,0,12,18,Ads,FireFox,M,credit card,toys & games,1,desktop,0
+28-06-2015 15:28,23,34,0,25,15,Ads,Safari,M,PayPal,health & beauty,2,desktop,0
+24-07-2015 08:08,20,35,0,82,8,SEO,Chrome,M,bank transfer,health & beauty,5,tablet,1
+23-02-2024 19:46,259.71,23,0,37,19,Direct,Chrome,F,credit card,toys & games,2,desktop,1
+19-04-2015 00:57,33,40,0,102,0,SEO,Chrome,M,bank transfer,home & garden,4,mobile,1
+24-03-2024 05:21,88.21,23,0,359,5,Direct,FireFox,F,credit card,toys & games,1,tablet,1
+30-03-2015 03:53,56,34,0,35,3,SEO,Chrome,M,PayPal,health & beauty,3,tablet,0
+10-04-2015 06:16,12,24,0,8,6,SEO,Opera,M,bank transfer,health & beauty,3,desktop,1
+05-07-2015 04:52,27,24,0,36,4,SEO,IE,F,credit card,home & garden,3,tablet,0
+01-01-2015 00:12,63,31,1,0,0,SEO,Chrome,M,bank transfer,toys & games,3,desktop,0
+30-03-2024 04:50,216.47,41,0,136,4,Direct,Safari,M,bank transfer,toys & games,1,desktop,1
+04-01-2024 06:22,18.7,21,0,317,6,Direct,IE,F,PayPal,health & beauty,2,desktop,1
+31-08-2015 23:35,53,33,0,92,23,SEO,IE,F,debit card,clothing,3,desktop,0
+03-01-2024 20:30,33.88,30,0,93,20,SEO,Chrome,F,bank transfer,toys & games,5,tablet,1
+08-09-2015 07:00,69,39,0,82,7,SEO,Safari,F,debit card,home & garden,5,mobile,0
+13-03-2024 17:02,455,22,0,39,17,Direct,Chrome,M,PayPal,home & garden,3,mobile,0
+03-03-2024 13:59,116.52,48,0,224,13,SEO,Chrome,M,PayPal,home & garden,5,mobile,1
+18-05-2015 19:34,76,35,0,5,19,SEO,FireFox,F,debit card,clothing,4,mobile,0
+10-03-2024 03:43,11.91,31,0,129,3,SEO,Safari,M,bank transfer,health & beauty,5,desktop,1
+03-01-2024 07:53,36.32,38,0,118,7,SEO,Chrome,F,PayPal,clothing,3,desktop,1
+08-02-2024 09:59,451.57,42,0,350,9,Direct,Chrome,M,debit card,toys & games,1,tablet,1
+09-04-2015 15:15,32,32,0,1,15,Ads,FireFox,F,bank transfer,toys & games,5,desktop,0
+27-10-2015 15:06,24,20,0,95,15,SEO,Chrome,F,credit card,clothing,3,mobile,0
+01-06-2015 01:48,27,20,0,22,1,Ads,Chrome,M,credit card,toys & games,4,desktop,0
+11-02-2024 02:49,189.45,42,0,213,2,Direct,IE,M,PayPal,toys & games,3,tablet,1
+04-10-2015 00:21,41,26,0,62,0,Ads,IE,F,debit card,health & beauty,3,mobile,0
+31-05-2015 01:10,26,30,0,11,1,Ads,Chrome,M,bank transfer,electronics,3,tablet,0
+15-01-2024 14:24,85,37,0,239,14,Ads,Chrome,M,debit card,health & beauty,4,tablet,1
+30-07-2015 14:33,22,19,0,43,14,SEO,Chrome,M,debit card,clothing,2,tablet,0
+16-03-2024 16:19,189.29,49,0,308,16,Ads,Safari,M,debit card,electronics,1,desktop,0
+07-02-2024 13:38,611.18,36,0,334,13,SEO,Chrome,M,PayPal,home & garden,3,tablet,1
+26-10-2015 19:14,62,40,0,115,19,Direct,Safari,M,bank transfer,health & beauty,2,mobile,1
+27-08-2015 01:42,23,27,0,59,1,SEO,Chrome,M,debit card,home & garden,1,desktop,0
+16-06-2015 20:50,30,43,0,109,20,SEO,IE,M,bank transfer,clothing,3,mobile,1
+28-02-2015 18:37,46,27,0,57,18,SEO,Chrome,F,PayPal,home & garden,2,mobile,0
+13-11-2015 06:18,47,25,0,114,6,SEO,FireFox,M,PayPal,home & garden,3,mobile,0
+03-03-2024 09:52,10.25,20,0,59,9,Ads,Safari,M,bank transfer,electronics,4,desktop,1
+21-06-2015 23:24,63,52,0,115,23,SEO,FireFox,M,PayPal,electronics,2,tablet,0
+12-05-2015 08:19,44,48,0,103,8,Ads,IE,F,PayPal,toys & games,1,desktop,0
+24-03-2015 20:33,43,22,0,37,20,SEO,FireFox,M,credit card,clothing,3,desktop,1
+11-01-2015 17:26,13,32,1,0,17,Ads,Safari,M,credit card,health & beauty,4,tablet,0
+16-01-2024 14:38,88.04,29,0,44,14,SEO,IE,M,debit card,toys & games,3,tablet,0
+25-06-2015 10:30,39,25,0,40,10,Ads,FireFox,F,credit card,home & garden,2,mobile,0
+27-01-2024 19:43,70.99,34,0,11,19,Ads,Safari,F,debit card,health & beauty,3,desktop,1
+10-03-2024 13:19,496.04,33,0,55,13,SEO,Chrome,F,debit card,home & garden,5,tablet,1
+13-07-2015 11:57,48,32,0,5,11,SEO,IE,M,PayPal,health & beauty,3,desktop,0
+03-03-2024 15:37,184.9,38,1,190,1,SEO,Chrome,F,PayPal,toys & games,3,mobile,1
+05-10-2015 10:50,45,42,0,69,10,Direct,Chrome,F,debit card,home & garden,4,mobile,0
+17-03-2024 20:50,330,36,0,100,20,Ads,IE,M,bank transfer,clothing,5,desktop,1
+04-02-2015 01:37,42,21,0,16,1,Direct,Safari,F,PayPal,health & beauty,2,tablet,0
+14-10-2015 07:21,49,52,0,74,7,Ads,IE,M,bank transfer,toys & games,1,desktop,1
+23-02-2024 08:39,317.43,16,0,323,8,Ads,Chrome,M,bank transfer,toys & games,3,desktop,0
+27-03-2015 03:49,27,21,0,20,3,SEO,IE,M,bank transfer,toys & games,2,desktop,1
+11-01-2024 07:56,383.55,35,0,43,7,SEO,Chrome,M,PayPal,health & beauty,3,mobile,1
+21-06-2015 19:53,17,48,0,96,19,SEO,Chrome,F,bank transfer,health & beauty,4,tablet,1
+11-09-2015 03:51,47,29,0,92,3,SEO,IE,F,credit card,home & garden,1,desktop,1
+15-02-2015 16:16,74,40,1,34,16,SEO,Chrome,M,credit card,health & beauty,4,desktop,0
+10-01-2024 12:42,249.63,48,0,45,12,Direct,IE,M,bank transfer,health & beauty,1,mobile,1
+21-01-2024 16:36,133.33,40,0,139,16,SEO,Chrome,F,debit card,home & garden,5,mobile,0
+25-03-2024 13:44,303.06,33,0,262,13,Ads,IE,M,debit card,clothing,5,mobile,1
+07-03-2024 21:19,113.15,17,0,194,21,SEO,Chrome,F,credit card,clothing,1,mobile,0
+11-01-2024 01:28,472.67,35,0,324,1,Ads,IE,F,credit card,home & garden,3,desktop,0
+05-02-2024 23:30,119.43,34,0,150,23,Ads,IE,M,PayPal,home & garden,3,tablet,1
+08-02-2024 15:53,44.67,41,0,260,15,Ads,Chrome,M,credit card,clothing,2,tablet,0
+29-05-2015 12:05,44,53,0,24,12,Direct,FireFox,F,debit card,home & garden,3,desktop,0
+28-05-2015 08:04,18,24,0,67,8,Direct,Chrome,F,PayPal,clothing,3,desktop,1
+02-01-2024 03:03,648.13,34,0,38,3,Ads,Chrome,F,debit card,toys & games,4,desktop,0
+29-04-2015 12:21,55,24,0,78,12,Direct,Chrome,F,debit card,toys & games,4,desktop,0
+20-01-2024 19:33,298.09,37,0,99,19,Ads,IE,M,debit card,home & garden,5,tablet,0
+20-07-2015 13:58,82,36,0,11,13,SEO,Chrome,M,credit card,clothing,1,tablet,0
+02-02-2024 17:46,46.94,30,0,260,17,Ads,FireFox,F,bank transfer,clothing,5,tablet,0
+12-02-2024 12:54,281.36,27,0,209,12,SEO,IE,F,PayPal,electronics,4,mobile,0
+18-03-2024 05:17,646.89,27,0,254,5,SEO,Chrome,F,PayPal,clothing,2,mobile,1
+18-01-2015 09:05,16,43,0,1,9,SEO,Opera,M,PayPal,clothing,4,tablet,1
+27-03-2024 21:06,860.9,32,1,292,4,SEO,Opera,F,credit card,clothing,5,tablet,1
+25-06-2015 23:47,26,45,0,115,23,SEO,Chrome,M,PayPal,electronics,1,tablet,0
+26-01-2024 15:09,367.85,32,0,16,15,Ads,Chrome,M,credit card,toys & games,2,desktop,1
+03-03-2024 03:52,116.15,30,0,198,3,Ads,FireFox,F,PayPal,toys & games,5,mobile,0
+21-07-2015 07:32,40,34,0,78,7,SEO,Opera,M,debit card,clothing,4,desktop,1
+10-03-2024 21:52,372.57,37,0,43,21,Direct,Safari,M,debit card,home & garden,5,mobile,0
+13-06-2015 16:57,36,30,0,75,16,SEO,IE,M,credit card,home & garden,1,tablet,0
+06-01-2015 02:29,28,35,0,3,2,Ads,Safari,M,debit card,clothing,4,desktop,1
+10-09-2015 10:17,20,43,0,87,10,Direct,Chrome,F,credit card,health & beauty,5,mobile,0
+19-01-2024 12:02,157.48,23,0,204,12,SEO,Chrome,F,PayPal,health & beauty,3,desktop,1
+27-05-2015 06:38,39,48,0,44,6,Direct,Chrome,M,debit card,home & garden,5,desktop,0
+16-02-2024 18:51,397.91,36,0,82,18,Direct,Safari,M,PayPal,home & garden,3,desktop,1
+18-07-2015 11:58,11,39,0,34,11,Ads,Safari,M,PayPal,toys & games,1,tablet,1
+04-08-2015 23:32,28,30,0,7,23,Direct,IE,M,bank transfer,health & beauty,1,tablet,1
+22-02-2024 02:46,94.83,38,0,130,2,Ads,FireFox,M,PayPal,toys & games,4,tablet,1
+24-08-2015 20:07,28,21,0,30,20,Ads,FireFox,F,credit card,electronics,3,tablet,0
+16-01-2024 22:27,72.49,54,0,345,22,SEO,FireFox,M,debit card,home & garden,4,desktop,0
+30-01-2024 00:15,244.79,43,0,203,0,Ads,Chrome,M,bank transfer,clothing,2,mobile,0
+10-01-2015 13:41,52,24,0,0,13,SEO,Safari,M,debit card,toys & games,2,tablet,1
