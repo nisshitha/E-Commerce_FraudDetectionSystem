@@ -17,7 +17,7 @@ encoders = joblib.load("encoders.pkl")
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Nisshi@2006",
+    password="your password",
     database="f_db"
 )
 cursor = db.cursor()
